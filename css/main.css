@@ -2,7 +2,6 @@ html {
   font-family: "Open Sans", sans-serif;
   color: #000;
   background-color: #fff;
-  padding: 1rem;
   border-color: #f2f2f2;
 }
 
@@ -10,9 +9,19 @@ h1 {
   border-bottom: 1px solid #000;
 }
 
+.btn:hover {
+  background-color: #000;
+}
+
 @media only screen and (min-width: 60em) {
 
+  .fitness {
+    padding-left: .5rem;
+  }
 
+  .age {
+    padding-left: .5rem;
+  }
 
 
 }
